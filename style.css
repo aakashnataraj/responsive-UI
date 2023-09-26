@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,800;1,900&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.item {
+  background-image: url(images/pexels-monstera-6620854\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 118vh;
+}
+
+.work img {
+  display: block;
+  padding-top: 4%;
+  padding-left: 3%;
+  letter-spacing: -2px;
+}
+
+.team {
+  display: inline-;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 6%;
+  left: 38%;
+}
+
+.team,
+a {
+  padding: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+  color: whitesmoke;
+  display: inline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgba(165, 42, 42, 0.938);
+}
+
+#color {
+  display: inline-flex;
+  align-items: end;
+  justify-content: flex-end;
+  float: inline-end;
+  position: relative;
+  left: 560px;
+}
+
+.fa-brands {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.fa-brands:hover {
+  color: rgba(165, 42, 42, 0.938);
+}
+
+#mydiv {
+  color: whitesmoke;
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 150px;
+  left: -15%;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 50px;
+}
+
+h1,
+br {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1.5;
+  padding-left: -6px;
+  position: relative;
+  left: -5%;
+  text-transform: capitalize;
+}
+
+.pic {
+  font-family: "Playfair Display", serif;
+  font-size: 330px;
+  font-style: italic;
+  font-weight: 1200;
+  line-height: 82%;
+  letter-spacing: 4.633px;
+  display: block;
+  position: relative;
+  left: 95.5px;
+  top: -30px;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(245, 245, 245, 0.904);
+}
+
+h2 {
+  color: whitesmoke;
+  width: 120%;
+  height: 80%;
+  margin-top: 8%;
+  font-weight: 800;
+  margin-bottom: 5%;
+  font-family: "Playfair Display", serif;
+  font-size: 200%;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  position: relative;
+  top: -47px;
+}
+
+h6 {
+  font-size: large;
+  display: inline-block;
+  margin: -20px;
+  position: fixed;
+  bottom: 15%;
+}
+
+button {
+  font-weight: 800;
+  text-align: center;
+  font-size: medium;
+  padding: 10px 60px;
+  height: 40px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: black;
+  border-radius: 3px;
+  border-style: none;
+}
+
+.value,
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+#Container-1 {
+  background-color: rgba(222, 184, 135, 0.426);
+  height: 100vh;
+}
+
+.tabel {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  font-size: larger;
+  padding-left: 31%;
+  font-family: "Playfair Display", serif;
+  text-indent: 20%;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+#item-1 {
+  transform: rotate(-90deg);
+  color: #fff;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+#style{
+    background-image: url(./images/pexels-john-tekeridis-3212164\ 1.png);
+    width: 380px;
+    height: 290px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 350px;
+}
+
+#style,p{
+    font-family: "Raleway", sans-serif;
+    margin-top: 15px;
+}
