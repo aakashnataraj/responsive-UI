@@ -7,12 +7,14 @@
   font-family: "Raleway", sans-serif;
 }
 
+
 .item {
   background-image: url(images/pexels-monstera-6620854\ 1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 118vh;
 }
+
 
 .work img {
   display: block;
@@ -21,20 +23,18 @@
   letter-spacing: -2px;
 }
 
-.work img:hover{
-  background-color: red;
-}
 
 .team {
   display: inline-;
   align-items: center;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: "Raleway", sans-serif;
   justify-content: space-between;
   position: absolute;
   top: 6%;
   left: 38%;
 }
+
 
 .team,
 a {
@@ -42,14 +42,18 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   color: whitesmoke;
-  font-family: "Playfair Display", serif;
+  font-family: "Raleway",sans-serif;
   display: inline;
   font-weight: bold;
 }
 
+
+
 a:hover {
   color: rgba(165, 42, 42, 0.448);
 }
+
+
 
 #color {
   display: inline-flex;
@@ -60,15 +64,21 @@ a:hover {
   left: 560px;
 }
 
+
+
 .fa-brands {
   padding: 15px;
   font-weight: bold;
   font-size: 25px;
 }
 
+
+
 .fa-brands:hover {
   color: rgba(165, 42, 42, 0.448);
 }
+
+
 
 #mydiv {
   color: whitesmoke;
@@ -77,22 +87,27 @@ a:hover {
   position: absolute;
   top: 150px;
   left: -15%;
-  font-family: "Playfair Display", serif;
+  font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-style: italic;
   font-size: 50px;
 }
 
+
+
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-style: italic;
   line-height: 1.5;
   padding-left: -6px;
   position: relative;
   left: -5%;
-  text-transform: capitalize;
+  text-transform: uppercase;
+
 }
+
+
 
 .pic {
   font-family: "Playfair Display", serif;
@@ -110,6 +125,8 @@ h1 {
   -webkit-text-stroke-color: rgba(245, 245, 245, 0.904);
 }
 
+
+
 h2 {
   color: whitesmoke;
   width: 120%;
@@ -125,6 +142,8 @@ h2 {
   top: -47px;
 }
 
+
+
 h6 {
   font-size: large;
   display: inline-block;
@@ -132,6 +151,8 @@ h6 {
   position: fixed;
   bottom: 15%;
 }
+
+
 
 button {
   font-weight: 800;
@@ -146,10 +167,14 @@ button {
   border-style: none;
 }
 
-button:hover{
+
+
+button:hover {
   background-color: rgba(165, 42, 42, 0.448);
   color: #fff;
 }
+
+
 
 .value,
 img {
@@ -159,13 +184,17 @@ img {
   padding-top: 4%;
 }
 
+
+
 .Container-1 {
   background-color: #958977;
-  height: 210vh;
+  height: 335vh;
   width: 100vw;
   background-size: cover;
   display: block;
 }
+
+
 
 #tabel {
   display: inline-flex;
@@ -183,6 +212,8 @@ img {
   line-height: 30px;
 }
 
+
+
 #item-1 {
   transform: rotate(-90deg);
   color: #fff;
@@ -197,6 +228,8 @@ img {
   top: 40px;
 }
 
+
+
 #style {
   background-image: url(./images/pexels-john-tekeridis-3212164\ 1.png);
   width: 380px;
@@ -206,6 +239,8 @@ img {
   margin-left: 35%;
   margin-top: 10%;
 }
+
+
 
 p {
   color: #fff;
@@ -219,11 +254,15 @@ p {
   font-style: normal;
 }
 
+
+
 .png,
 img {
   padding-left: 24%;
   padding-top: 5%;
 }
+
+
 
 .jpg {
   text-align: center;
@@ -233,12 +272,17 @@ img {
   color: #fff;
 }
 
-.jpg,h1{
-  font-family: "Raleway",sans-serif;
+
+
+.jpg,
+h1 {
+  font-family: "Raleway", sans-serif;
   font-style: italic;
   position: relative;
-  top: -16px;
+  top: -8px;
 }
+
+
 
 .jpg,
 h6 {
@@ -247,6 +291,13 @@ h6 {
   top: -12px;
   line-height: 130%;
 }
+
+
+#nav{
+    top:5px;
+}
+
+
 
 #Note {
   margin-top: -27%;
@@ -259,28 +310,33 @@ h6 {
 }
 
 
-.break{
+
+.break {
   position: relative;
   top: 100px;
 }
 
 
-.view{
+
+.view {
   position: relative;
   top: 10px;
 }
 
 
-.tittle{
+
+.tittle {
   position: relative;
   top: 21px;
 }
 
-#various{
+
+
+#various {
   transform: rotate(-90deg);
-  position: relative; 
+  position: relative;
   left: -18%;
-  top: -19%; 
+  top: -19%;
   color: #fff;
   font-family: "Raleway";
   font-size: 14px;
@@ -288,19 +344,25 @@ h6 {
   font-weight: 600;
   line-height: 14px;
   text-transform: uppercase;
-  
 }
 
-.place{
+
+
+.place {
   border: 1px solid white;
+  display: flex;
+  align-items: start;
+  justify-content: start;
   width: 120px;
-  margin-top: -28%;
+  margin-top: -94%;
   margin-left: 40%;
   text-align: center;
   text-decoration: none;
 }
 
-.over{
+
+
+.over {
   border: 1px solid whitesmoke;
   width: 120px;
   margin-top: -12%;
@@ -309,7 +371,9 @@ h6 {
   text-decoration: none;
 }
 
-.design{
+
+
+.design {
   border: 1px solid whitesmoke;
   width: 120px;
   margin-top: -10%;
@@ -318,11 +382,98 @@ h6 {
   text-decoration: none;
 }
 
-.non{
+
+
+.non {
   border: 1px solid whitesmoke;
   width: 120px;
   margin-top: -10%;
   margin-left: 40%;
   text-align: center;
   text-decoration: none;
+}
+
+
+
+.open {
+  background-image: url(./images/pexels-monstera-6621225\ 1.png);
+  width: 100%;
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.open img {
+  position: relative;
+  left: 25%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+#mail {
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 15%;
+  font-size: 45px;
+  padding-left: 21%;
+  font-style: italic;
+  font-weight: 800;
+  font-family: "Playfair Display";
+  text-transform: lowercase;
+  line-height: 140%;
+  letter-spacing: 0.96px;
+  word-spacing: 16px;
+}
+
+
+
+.develop{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  padding-left: 10%;
+  word-spacing: 5px;
+}
+
+
+
+#ak{
+  display: flex;
+  margin-top: 38px;
+  margin-left: 7%;
+}
+
+
+
+#menu{
+  margin-left: 17%;
+  padding: 0 40px 0 0;
+}
+
+
+
+#server{
+ position: relative;
+ left: 30%;
+ color: #fff;
+}
+
+
+
+#var{
+  margin-top: 15%;
+  position: relative;
+  left: -18%;
+  color: #fff;
+}
+
+
+
+span{
+  text-decoration: underline;
 }
